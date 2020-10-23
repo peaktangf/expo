@@ -10,7 +10,7 @@ Firstly, you need to add the `expo-dev-menu` package to your project.
 <summary>yarn</summary>
 
 ```bash
-yarn add expo-dev-menu
+yarn add expo-dev-menu expo-dev-menu-interface
 ```
 
 </details>
@@ -19,7 +19,7 @@ yarn add expo-dev-menu
 <summary>npm</summary>
 
 ```bash
-npm install expo-dev-menu
+npm install expo-dev-menu expo-dev-menu-interface
 ```
 
 </details>
@@ -35,9 +35,6 @@ Then you can start to configure the native projects using steps below.
     ```gradle
     include(":expo-dev-menu")
     project(":expo-dev-menu").projectDir = new File("../node_modules/expo-dev-menu/android")
-
-    include(":expo-dev-menu-interface")
-    project(":expo-dev-menu-interface").projectDir = new File("../node_modules/expo-dev-menu-interface/android")
     ```
 
     II. Go to the `build.gradle` of your application and add `expo-dev-menu` as a dependency:
@@ -45,7 +42,6 @@ Then you can start to configure the native projects using steps below.
     ```gradle
     dependencies {
       ...
-      implementation project(":expo-dev-menu-interface")
       implementation project(":expo-dev-menu")
       ...
     }
@@ -210,7 +206,6 @@ Then you can start to configure the native projects using steps below.
       ...
       target '<your app>' do
         ...
-        pod 'EXDevMenuInterface', path: '../node_modules/expo-dev-menu-interface'
         pod 'EXDevMenu', path: '../node_modules/expo-dev-menu', :configurations => :debug
         ...
       end
@@ -399,7 +394,7 @@ The below instructions will show you how to create simple extension that removes
 
    ```swift
    // CustomDevMenuExtension.swift
-   import EXDevMenuInterface
+   import expo_dev_menu_interface
 
    @objc(CustomDevMenuExtension)
    open class CustomDevMenuExtension: NSObject, RCTBridgeModule, DevMenuExtensionProtocol {

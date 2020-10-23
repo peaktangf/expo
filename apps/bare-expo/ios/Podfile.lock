@@ -54,9 +54,7 @@ PODS:
   - EXDevice (2.3.0):
     - UMCore
   - EXDevMenu (0.0.2):
-    - EXDevMenuInterface
-    - React
-  - EXDevMenuInterface (0.0.2):
+    - expo-dev-menu-interface
     - React
   - EXDocumentPicker (8.4.1):
     - UMCore
@@ -139,8 +137,10 @@ PODS:
   - EXPermissions (9.3.0):
     - UMCore
     - UMPermissionsInterface
-  - expo-development-client (0.0.3):
-    - EXDevMenuInterface
+  - expo-dev-menu-interface (0.0.2):
+    - React
+  - expo-development-client (0.0.6):
+    - expo-dev-menu-interface
     - React
   - expo-image (1.0.0-alpha.0):
     - React
@@ -596,7 +596,6 @@ DEPENDENCIES:
   - EXCrypto (from `../../../packages/expo-crypto/ios`)
   - EXDevice (from `../../../packages/expo-device/ios`)
   - EXDevMenu (from `../../../packages/expo-dev-menu`)
-  - EXDevMenuInterface (from `../../../packages/expo-dev-menu-interface`)
   - EXDocumentPicker (from `../../../packages/expo-document-picker/ios`)
   - EXErrorRecovery (from `../../../packages/expo-error-recovery/ios`)
   - EXFacebook (from `../../../packages/expo-facebook/ios`)
@@ -623,6 +622,7 @@ DEPENDENCIES:
   - EXNetwork (from `../../../packages/expo-network/ios`)
   - EXNotifications (from `../../../packages/expo-notifications/ios`)
   - EXPermissions (from `../../../packages/expo-permissions/ios`)
+  - expo-dev-menu-interface (from `../../../packages/expo-dev-menu-interface`)
   - expo-development-client (from `../../../packages/expo-development-client`)
   - expo-image (from `../../../packages/expo-image`)
   - EXPrint (from `../../../packages/expo-print/ios`)
@@ -758,8 +758,6 @@ EXTERNAL SOURCES:
     :path: "../../../packages/expo-device/ios"
   EXDevMenu:
     :path: "../../../packages/expo-dev-menu"
-  EXDevMenuInterface:
-    :path: "../../../packages/expo-dev-menu-interface"
   EXDocumentPicker:
     :path: "../../../packages/expo-document-picker/ios"
   EXErrorRecovery:
@@ -812,6 +810,8 @@ EXTERNAL SOURCES:
     :path: "../../../packages/expo-notifications/ios"
   EXPermissions:
     :path: "../../../packages/expo-permissions/ios"
+  expo-dev-menu-interface:
+    :path: "../../../packages/expo-dev-menu-interface"
   expo-development-client:
     :path: "../../../packages/expo-development-client"
   expo-image:
@@ -976,8 +976,7 @@ SPEC CHECKSUMS:
   EXContacts: dbc32dd1e2798cce1beeced230da989931b47890
   EXCrypto: 80ee65669a5466a7ce9426a8ae985a50be7f3a5d
   EXDevice: e6ede72e08f6adc4b224d0628a9963d394ab9226
-  EXDevMenu: 088b7b4d4205a648878ea530ae60150cc3170d52
-  EXDevMenuInterface: d0345b75a3e382389087e82121e2692b038f3255
+  EXDevMenu: d665f88d362968ce21a3bfb6b261320193e5c75b
   EXDocumentPicker: 66695681f7bfae2813abe8840f9e0b8742829ee6
   EXErrorRecovery: 16696fe023fb46a32c3b09033abc361cfcf150a7
   EXFacebook: dd5352a2a74f825922131abf1ed438cf51d116a7
@@ -1004,7 +1003,8 @@ SPEC CHECKSUMS:
   EXNetwork: 05c1b87ba7077cb3eea7a3968640e5007e32eb6b
   EXNotifications: 55301e7284ef5427662a2191eb986acb2035a1d5
   EXPermissions: 30cbe5b72bd209b65c00884180ad058a60bb413d
-  expo-development-client: e8c09f0c49f187af7af6c22045d7f81ca5dbdff9
+  expo-dev-menu-interface: 0e3df671d6a0a31474c169042708965b82e3906c
+  expo-development-client: 0ad83538c8d28cc520fc6d26372f091f1d43aebb
   expo-image: 36f53fe2845e4bb74021f69192a752db29766897
   EXPrint: 969e4d8514319a74405b015cd0bf6023dcdf4b00
   EXRandom: e4fbca1d3a5d6bd22ef22db9d404102b82987600
@@ -1095,6 +1095,6 @@ SPEC CHECKSUMS:
   Yoga: 7740b94929bbacbddda59bf115b5317e9a161598
   ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
-PODFILE CHECKSUM: 9de28b3775fa7f2df753824b68e8e11037eb1f9c
+PODFILE CHECKSUM: 6cb7d69a3147e8f98c257c31b165a661142fc88e
 
 COCOAPODS: 1.9.3

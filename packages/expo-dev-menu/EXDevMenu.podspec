@@ -33,5 +33,5 @@ Pod::Spec.new do |s|
   # }
 
   s.dependency 'React'
-  s.dependency 'EXDevMenuInterface'
+  s.dependency 'expo-dev-menu-interface'
 end

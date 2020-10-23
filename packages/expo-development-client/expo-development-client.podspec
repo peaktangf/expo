@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "EXDevMenuInterface"
+  s.dependency "expo-dev-menu-interface"
   # ...
   # s.dependency "..."
 end

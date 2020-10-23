@@ -7,148 +7,148 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0572A6159A99953B97D4AC2072CFE49D /* DevMenuREAConcatNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976E82B0B91C44E34F0F202F0E50527 /* DevMenuREAConcatNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		072E465816AC0D3B5A318027782CABE4 /* RCTConvert+DevMenuREATransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 13DC8B8070156D9D3F7F6844B344CF76 /* RCTConvert+DevMenuREATransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0B46971C3298C127CF7291C3CD1F728F /* DevMenuREAAllTransitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF8AF3EC86E0DC3BB12A63915821546 /* DevMenuREAAllTransitions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0BF1116325B878CE3D71BA99B0CA6DB8 /* DevMenuRNGestureHandlerButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B498A5F5EFDAA305EB9A6A135BE64B00 /* DevMenuRNGestureHandlerButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0E9682296179724B894D5150902F3B1C /* DevMenuRNFlingHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A62299847A5C4838B812B743F749A9 /* DevMenuRNFlingHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0EC22199D1A049D46BD7BF5A44682669 /* DevMenuREATransition.h in Headers */ = {isa = PBXBuildFile; fileRef = C212442B56A7316CA714735A48E20A59 /* DevMenuREATransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0F3735DE1CFC515F90AA92E470A4540B /* DevMenuRNGestureHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DAB76F922987B277444C673D1DBA4E7 /* DevMenuRNGestureHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		11C4103DE34E8B76DE6B6F9FCA678BFD /* DevMenuREAOperatorNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 035AF6D1A946DB06B2693B9E58B44E47 /* DevMenuREAOperatorNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		12EF7A637BC6EBDF41F32A34F49606A5 /* DevMenuREATransitionValues.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E537C914A546E260BDCD5E66B7D8FB /* DevMenuREATransitionValues.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		14C77565E0150F71E28C8F5CCDF3DF14 /* RCTConvert+DevMenuREATransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBCB243D52C2D8244C8531DCD904D59 /* RCTConvert+DevMenuREATransition.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1787F2CD2004A09F1397200A4AB826F4 /* DevMenuREATransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A76DC8C9A21D031641EB2505A6BA26B8 /* DevMenuREATransition.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		18878F2F62A163F7EE1FF678E6A1C190 /* DevMenuREANode.h in Headers */ = {isa = PBXBuildFile; fileRef = 338388B1F9551E200CDC212459625361 /* DevMenuREANode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1FEBC798ECED8A25B9947C3536191774 /* DevMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566F92CFCB99A5F322066ACA5C30595 /* DevMenuViewController.swift */; };
-		25F0B343CB0A24B2D02D2660C5CD4776 /* DevMenuREAOperatorNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C2AD3BF436196BA75426C3E44F1EE0 /* DevMenuREAOperatorNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		27B2D9A09DBBC9A3DFA519E2AA36232C /* DevMenuRootView.h in Headers */ = {isa = PBXBuildFile; fileRef = 14EB609B00593EAAD426EE3A4B15F7DD /* DevMenuRootView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		297B9D12CA7973D74D52A0A9E226DDF1 /* DevMenuExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2DACBDC2884705C38ECF769FFBD84 /* DevMenuExtensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2BD3925C4EDB1E064C1882ED1E505FF2 /* DevMenuRNGestureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4280563318E575150E45647C7E92B /* DevMenuRNGestureHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2DB1398CDBEF3811AC3887B69B1B9551 /* DevMenuREADebugNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B12442F6EEE9A54F851401EC84B5F789 /* DevMenuREADebugNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2E12FD00B9249E35EA4547B30937925F /* DevMenuREASetNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 033B66F85190CC30E7F678EEC9BB4D2A /* DevMenuREASetNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2FE852D62C8F90831777739063138844 /* DevMenuREAFunctionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7249FFB05D1130F701BB44B9A4F570F1 /* DevMenuREAFunctionNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		344EE647279922892C806CAE49B28733 /* DevMenuREAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FDADA6E6729D6A581F67765EB5299C39 /* DevMenuREAModule.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		34DE3A5D90D29FAC5A3FA5E2628B5725 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 737C86A61429003914CAA40C03A90F59 /* Ionicons.ttf */; };
-		367F83999EE3D3BBED7A179D70853F28 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDE6959B89AA87F5D1446225BED831D2 /* MaterialCommunityIcons.ttf */; };
-		3C2AF8EC6C1870B2A43B444C06B0A55D /* DevMenuREATransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A67D71D7E90069777006E4E2F4F4B5 /* DevMenuREATransitionAnimation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3EB1D446F0CC0970670851199A0F33CB /* DevMenuRNPanHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AD0B81BBF0D32A610CB655E789CE9 /* DevMenuRNPanHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3F267ABBF8B3C930DBE01A1A050445EA /* DevMenuRNLongPressHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0E400472C4E759885EDAA7381DD13 /* DevMenuRNLongPressHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		40FC888D8EF15792EF8811F6F3B22674 /* EXDevMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF52EDFA276F4FFB254CAAA46A10987 /* EXDevMenu-dummy.m */; };
-		44F3FC9545FDB5063A74FF8C32B8CD6F /* DevMenuREANode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B59337F93D9D496BF86ED099FBA5D80 /* DevMenuREANode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4585D53BE60CE0E5311B534D428B8270 /* DevMenuREAEventNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9065F92E9D989D7D3F92E52AF368B349 /* DevMenuREAEventNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		49C52599E9A5FAEDF3DBC05353C13BCC /* DevMenuRNGestureHandlerState.h in Headers */ = {isa = PBXBuildFile; fileRef = 561F695E23E9C00AEEE24FF34992A676 /* DevMenuRNGestureHandlerState.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4B34D5FDA61E74B8C2D5F5488EECF0B8 /* DevMenuREAValueNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AEE012416D1E819BB410A57E1D36F3 /* DevMenuREAValueNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4C4863043D173A615A6A854A8095C352 /* DevMenuREABezierNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF67D476F84A0223F5574AECDF4F0E7 /* DevMenuREABezierNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4E61EFB239E47F0373464303EEAD9F6D /* DevMenuREAStyleNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E517EED51BBD766E4C68A36E6BEE4491 /* DevMenuREAStyleNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		503E3616539BC8469435EB129869B128 /* DevMenuGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EAD33CF34F6C6E3CFADE93C48FD764 /* DevMenuGestureRecognizer.swift */; };
-		5414731F49C8CCBA89881F637404547F /* DevMenuRNGestureHandlerEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B1D1B2E3A14E236F00EFFCDF248D37 /* DevMenuRNGestureHandlerEvents.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		54FEC2145F00B87C72D40B6702C2B1BC /* DevMenuAppInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30564F90137431ABC647691117D3D8 /* DevMenuAppInstance.swift */; };
-		561EB9C39D569ABDA5982C0683C0C77D /* DevMenuRNPinchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EB9C2459E503F9309D2CC625EB5C9E /* DevMenuRNPinchHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5845614B9508DB23CB4C5396168A0137 /* DevMenuVendoredModulesUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E241A4422266DABD703F261D953CCB /* DevMenuVendoredModulesUtils.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		590B7BEF7E2E8C2EAF693EA35E8B461D /* DevMenuREATransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E32596B5F6205291DA379F53C7DEDF01 /* DevMenuREATransitionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5938485BD95BDA7C354F342D52C983B0 /* DevMenuWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC3CAE236EC48B3665C0204843900C7 /* DevMenuWindow.swift */; };
-		65E99483FC3A15885A5498AFBA6E1E74 /* DevMenuRNGestureHandlerModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BED7F38ADDCB9E421FB91B3095F9ED /* DevMenuRNGestureHandlerModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		66ED4AC48B52F1B40509FA7D28F62479 /* DevMenuREAEventNode.h in Headers */ = {isa = PBXBuildFile; fileRef = A14F3F8D74A52728A274E5695513F7BB /* DevMenuREAEventNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		67A14AA842B9F06EB614D4054B7B3441 /* DevMenuSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A88E5E142B527B42A99ADBE6DFE148 /* DevMenuSettings.swift */; };
-		690C51E891B3FD0745C39852ACA96B1C /* DevMenuInternalModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 19072D266BDB26605187D858F153EE5C /* DevMenuInternalModule.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		69FEE7A55DD44A2712247129496564C9 /* DevMenuREATransitionAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 31305C91D1F6FFE9A3C0D48CD8FF64E0 /* DevMenuREATransitionAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6B0469649B56F80999159973057C2D6F /* DevMenuSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A00700F83A90DAD9117313A43F856A /* DevMenuSession.swift */; };
-		6B1FCE99F5E0E1A069A0F4FECD80F9BF /* DevMenuRNRotationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 616CE622958E636D7C46184359C7544A /* DevMenuRNRotationHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6B5AAD55DE90383498AC8551DEE7D42D /* DevMenuMotionInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFADDF6F1CABB1AE6E33D6DD04FD808 /* DevMenuMotionInterceptor.swift */; };
-		6C4E2D1B33AF488277E4AC0F8838BAF7 /* DevMenuREACondNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 75044D510AAD4A76A9B55511DAD7ECAB /* DevMenuREACondNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6E387D4F62B6731174AB14AEB58F4B0E /* DevMenuRNLongPressHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9C1BDC6AD2EFF47F0C2583F1472EB1 /* DevMenuRNLongPressHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		72BEFAC4B537E83B841651BF67DC0280 /* DevMenuModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A039540BF78062B4B1E8E8B55670 /* DevMenuModule.swift */; };
-		75812C53DE1D213316A0B115F36FF4D5 /* DevMenuRNFlingHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E6270E6A1B887DB8B978E90AB3532C /* DevMenuRNFlingHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		77F130BD45C62A75C39E149B8FC41AF6 /* RCTRootView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DAAB221734CC98AB9898EE3B332168F7 /* RCTRootView+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7ABD60F793503D198100A7F0ECDB9FA5 /* EXDevMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = C03EAB1EBA5609D7D419BA5847D550EE /* EXDevMenu.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		83A846ECEA6E1E564C2A8782B610CBC6 /* DevMenuRNRootViewGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E45FD2359ADE50026455909F3895792 /* DevMenuRNRootViewGestureRecognizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		83DC1B8D9878C67DC9E8E3088EC1B95E /* DevMenuREAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A76469EA10F2FB3EE9DB813DC4FF23AA /* DevMenuREAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		84192E35CD4CA0A7A5B8FBE519344799 /* DevMenuRNGestureHandlerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DBB8245A1160457EEC7407626CFFE5 /* DevMenuRNGestureHandlerModule.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		85527D87EAE180E529DC519778F888D9 /* DevMenuRNForceTouchHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B3AEF55586307056875CE3D77F7369 /* DevMenuRNForceTouchHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8559908DD581A8D28FFAF82BEE6CC50E /* DevMenuRNForceTouchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C449B1937A7B9480EE81283814AFF4 /* DevMenuRNForceTouchHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		862F4BCC5518423CB5769F051208B637 /* DevMenuRNRootViewGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 825C557AFF140A113319DB7249450B8E /* DevMenuRNRootViewGestureRecognizer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		874D4C3F0A94AFE1AE0656B3A4689C3F /* DevMenuInternalModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216E18A4EA6ABA0AC92318118C0A55A4 /* DevMenuInternalModule.swift */; };
-		8C2978CDEFBE1BF5A0C3E0F98B658E17 /* DevMenuRNGestureHandlerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37854DD56C7AE87DA80FC4D96ED62EB5 /* DevMenuRNGestureHandlerManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8D3B83F76BFDFD17D48D593145EBE09F /* DevMenuRNPanHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 79994AB2CC4BD27904115411553875B6 /* DevMenuRNPanHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		90550977AA6DB1DE03BF3F1315A39200 /* MockedSafeAreaViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04799362E9D71E213DCBDBAF9CD3B53B /* MockedSafeAreaViewProvider.swift */; };
-		9647035043A77FEB8020E504A52FC097 /* DevMenuRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3433A259233E867DA7C9103F4DE728 /* DevMenuRootView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		967D6705EB78CF76405D3F3250ED615B /* DevMenuREANodesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC12E2D05CCD49EA8F3A7DF518B9B7A /* DevMenuREANodesManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		96C9F290ABD58BEC7B977866CDD039D8 /* DevMenuRNGestureHandlerEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C2E1D2BBD71B6F89F9EAF31401D04D /* DevMenuRNGestureHandlerEvents.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		986D7B87DB4906417FFFBB30EAB7237C /* DevMenuREAPropsNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B99D3871A1ED0A4CF604C5775C8D9D6 /* DevMenuREAPropsNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9B5E146D3283ED86AC9CFD596BF71EF2 /* DevMenuExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9956DA069765775A9A9229051054F3 /* DevMenuExtensions.swift */; };
-		9BBA2E568FE6EF13BACBB6DB53762180 /* DevMenuREAParamNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6849D6C769E3A729E53BFE1396BFDB17 /* DevMenuREAParamNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A0C2C1AB83984435CC8D7657A3E7D45B /* DevMenuREABlockNode.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD86432BC4B1C52DD5CB53B60D81F60 /* DevMenuREABlockNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A0F25684AE9C801CA1C91E79FB57989C /* DevMenuREAFunctionNode.h in Headers */ = {isa = PBXBuildFile; fileRef = F1DF693BE72DD84F796176CD422B6B63 /* DevMenuREAFunctionNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A28FE75233940844036E1F4DCFA0A2CC /* dev-menu-packager-host in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE4C461E96ADCDF9F1230E18BB2E1B /* dev-menu-packager-host */; };
-		A3D80604280FD994768F42607C5DC021 /* DevMenuREAParamNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D571D6D44B4C5D94128F0B6887936BDE /* DevMenuREAParamNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A5FFFB54C9247C8E5F83EA3D096B65FB /* DevMenuREAJSCallNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C84E469A462CB3EC689A91D59CCF574 /* DevMenuREAJSCallNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AA667E5E75F3F157DA1EC850A1EAB467 /* EXDevMenuApp.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = B28D1617E7C5561E4F477673D638F93A /* EXDevMenuApp.ios.js */; };
-		ABFC90F682FFD8A0AE23CC8B7549E1DF /* DevMenuREACallFuncNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4600613D94BF9C16C8E6270D56E6BD8D /* DevMenuREACallFuncNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AC493446A83334E07ED6D78AD3DCFC10 /* DevMenuRNPinchHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C2412D7165FB47FD43C4CEF8A12B9B8B /* DevMenuRNPinchHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ACEBC0027E26B9EFE2252288C456F422 /* DevMenuREADebugNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B62D14C1AB4E15AAB97A56C926E809 /* DevMenuREADebugNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AE5CFDC6DE75AA1A9322DC4C0A5AFC35 /* DevMenuRNTapHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 639C8C3A4505D1251AC3D6B2EF2FD818 /* DevMenuRNTapHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B097F5BD72FA44344996B0A85962A324 /* DevMenuRNGestureHandlerRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = FEC5F4BB29D4822AB0AC4B4E1AFB4CE4 /* DevMenuRNGestureHandlerRegistry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B09F3F56C4F3A7AF8621079496255A91 /* DevMenuRNTapHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B728197C24482E0A0CB7339DF57DA7C8 /* DevMenuRNTapHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B0DAEB31BADB2E930E5696F4254720C6 /* DevMenuREAValueNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D29D91BBB53CCFE2BD69DBA4F78D8501 /* DevMenuREAValueNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B49411186AA7DF723C98C7B7B9F5CEFD /* DevMenuRNGestureHandlerRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFA9ADE9CD38B6F40509988C71C9AB /* DevMenuRNGestureHandlerRegistry.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B4C7FF647A4ED0D3036FBB2DC23C1F3F /* DevMenuREAStyleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 676ED989A335952A30D95589D6D25E24 /* DevMenuREAStyleNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B58222229EAE1E69EBB0580F43AE0147 /* DevMenuRNGestureHandlerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D74058B36748843828F520A009A65D1D /* DevMenuRNGestureHandlerButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B7D7988C66CAE6A3DE1A9789E144D111 /* DevMenuRNNativeViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D671E31FCFD2C563A43EAFBD471FED89 /* DevMenuRNNativeViewHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B9EC13CD49EB58DC6B4B6072467904A9 /* DevMenuREAConcatNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B22046DE2C77F6915917860F87A5D2D5 /* DevMenuREAConcatNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BA9FE341CCE1149FDD8A0ED2E7E099E3 /* DevMenuREANodesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C783219FD09D499E5F2D014B349CF2F /* DevMenuREANodesManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BC850D32B8C60EC596EC22ADD12FAEEF /* DevMenuModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 035B31F3900202D0608F48D8737EBC2D /* DevMenuModule.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BD7D65D3B61CB63011FB0B3D90523030 /* DevMenuKeyCommandsInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A50BEA2080302F8FC69FC00E824A84 /* DevMenuKeyCommandsInterceptor.swift */; };
-		BF70C6D0E0F035E7E2C715DE1F6713F7 /* DevMenuRNGestureHandlerDirection.h in Headers */ = {isa = PBXBuildFile; fileRef = D91BAC8B04BEEF403A15A68A0D71DC5D /* DevMenuRNGestureHandlerDirection.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BFE9D7A7D4C570351C3E28AA96917EEE /* DevMenuREATransformNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 366F6CD191F57906D616AFF14B6A783D /* DevMenuREATransformNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C0A822F511AF4BFDBF6E2EF7C8AB4E96 /* DevMenuRNRotationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F619D00A1DEEFEE7B81C2A180D878C2 /* DevMenuRNRotationHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C0DBB4FA2E19A3A297B0DB677E57A7E8 /* DevMenuREAClockNodes.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD2F9A733CBF0A67B91DFA2F90267C5 /* DevMenuREAClockNodes.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C3CDF42CB06D60B0782EFAB3BAC063BE /* DevMenuREAAlwaysNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B5DF94E5DDC4C541FD5728C2A1937F33 /* DevMenuREAAlwaysNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C74071B7C810B83443750E70A3C98428 /* DevMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289D884C451D0C46C98C4B064BC1BA1 /* DevMenuManager.swift */; };
-		C7491624FC09CA99FF0A2A4EF86B3538 /* DevMenuREAClockNodes.h in Headers */ = {isa = PBXBuildFile; fileRef = BC40DFBCF4DB1C97B36EE33A7D6A924B /* DevMenuREAClockNodes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C7E3949DE02A6D7D0CB9DAFEF7FF3BAB /* DevMenuUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E7A40B05DC87FBED960FCF5C6250E5 /* DevMenuUtils.swift */; };
-		CA0E4E3DC2DBF9D9F4C77B038BAC3F00 /* EXDevMenu-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 781DB1BCCA90A77F19FF0AEA3AE6B123 /* EXDevMenu-Bridging-Header.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CC5AD6E9F5AC1AB79931509856E0D72D /* RCTPerfMonitor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2BF767F4899BD71AAA00BCCD6A0B1F /* RCTPerfMonitor+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CCFC23690A5EB2195D65668D7139831B /* DevMenuREACallFuncNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B6E6026ACAEBA9DC1F40453F94647D /* DevMenuREACallFuncNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D09BB1C736838B0BC2B34104FB36EFDA /* DevMenuREAAlwaysNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBA4A23BC20D2200078BB2CE779404 /* DevMenuREAAlwaysNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D6289AB738F638719740BA8E7F2F3573 /* DevMenuREAAllTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B325B241619675072E4E7A060E4C79C /* DevMenuREAAllTransitions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		DB0A5A3A61B9AF478ABB85DD75EE7364 /* DevMenuREATransitionValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 08401F6811408ED8CBDAB81CC6B1B72B /* DevMenuREATransitionValues.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DB22A03E3D31EFE5DEFD2D337F739BD7 /* DevMenuREATransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE665F5668A3A4A7F9F14AA3D3C40495 /* DevMenuREATransitionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		DC48161FE5ECB522C7A68C426C868A67 /* DevMenuREASetNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B55F10646E0C6B554290E340E83A57 /* DevMenuREASetNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DD843CBEFFC663454D6F38F04E942759 /* DevMenuVendoredModulesUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 896BE40732E3433EF3B7A5F1B0A32F5F /* DevMenuVendoredModulesUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E1E0586ACB3636E83BACCB7C31758ED0 /* DevMenuREATransformNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2558AE03F29D7A4BF54B96D3B38A26DA /* DevMenuREATransformNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E3C0F43B1F7B97567D493C9F781ECDA8 /* DevMenuREAJSCallNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 479E877B769BDD6BB965C968F6FA1C25 /* DevMenuREAJSCallNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E3DF62B2FD1B9652E5CFC5BA94164A7A /* DevMenuREABezierNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2187129B4310EB470F059EB5B79A40 /* DevMenuREABezierNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E45E928FBF069EF8C17053802FC7D20A /* DevMenuTouchInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E492E222541D49E6467CADD208CC679 /* DevMenuTouchInterceptor.swift */; };
-		E8BAEF84947A335B79F5C6FE04036C0D /* DevMenuREABlockNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CD4DC0A471EFB28DC604595F120036 /* DevMenuREABlockNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EE92FB0AE8D477257D62F5EF1D0AD86B /* DevMenuRNGestureHandlerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D09475C3F7DC5275875A73A04D8C3EFA /* DevMenuRNGestureHandlerManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F0DF524675B08C5ED8E3FD3CF2776E02 /* EXDevMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D6C46E78C48894418D80441809319A /* EXDevMenu-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F4683320AC6CB94720DAAAF4E879A190 /* DevMenuRNNativeViewHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 920E7317BFDC7D1AB56DBE76786FD0BC /* DevMenuRNNativeViewHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F86427E7067991B92A825875DB210E41 /* DevMenuREAPropsNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E85C2D964877CB11788F1EC8114ABC /* DevMenuREAPropsNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FD512CCFCB76F357A6F4E93A5114B4D9 /* DevMenuREAModule.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F354D85D2AD27192AC50088EB45DFC /* DevMenuREAModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FE40ED071FDCC28EAF25BC496DF4014F /* DevMenuREACondNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 736B5753F7234C747BD92510F25FBB27 /* DevMenuREACondNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		024242A12A20E700E55735BF4B00E44D /* DevMenuREADebugNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B62D14C1AB4E15AAB97A56C926E809 /* DevMenuREADebugNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		03F67A91C5F2C453A5AAE5C320627EB7 /* DevMenuRNRotationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F619D00A1DEEFEE7B81C2A180D878C2 /* DevMenuRNRotationHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0CED4E33B6240B708DF37A7BAF42BAFC /* DevMenuREAClockNodes.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD2F9A733CBF0A67B91DFA2F90267C5 /* DevMenuREAClockNodes.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0E97890D0D7FCFF937CB85B23BAD5C79 /* DevMenuSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A00700F83A90DAD9117313A43F856A /* DevMenuSession.swift */; };
+		11C4EC6F0DE152EBFD24AE0DACD0285D /* DevMenuREADebugNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B12442F6EEE9A54F851401EC84B5F789 /* DevMenuREADebugNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		15072F52C4D1EDAC74285CEB0052F9AE /* DevMenuREAAlwaysNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBA4A23BC20D2200078BB2CE779404 /* DevMenuREAAlwaysNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		15A18DC1C897CDC053DDA5B7D134B7C4 /* DevMenuRNGestureHandlerButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B498A5F5EFDAA305EB9A6A135BE64B00 /* DevMenuRNGestureHandlerButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15F544776E29EAB6A6EFDD76B09F2606 /* DevMenuREABlockNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CD4DC0A471EFB28DC604595F120036 /* DevMenuREABlockNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1B537E64C59A5BF997465A5BFB9C6540 /* DevMenuREATransformNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 366F6CD191F57906D616AFF14B6A783D /* DevMenuREATransformNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2A9900CEB8E496CEFD18B44011EC0EA8 /* DevMenuRNNativeViewHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 920E7317BFDC7D1AB56DBE76786FD0BC /* DevMenuRNNativeViewHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30CACB0E85061E5BD8BBC0DA92358849 /* DevMenuREANode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B59337F93D9D496BF86ED099FBA5D80 /* DevMenuREANode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3205EB95B96DD93EE1E8F7BD726BE3EB /* DevMenuREAAlwaysNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B5DF94E5DDC4C541FD5728C2A1937F33 /* DevMenuREAAlwaysNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3217A9FA7DA0BA91EF4F6411814C936F /* DevMenuMotionInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFADDF6F1CABB1AE6E33D6DD04FD808 /* DevMenuMotionInterceptor.swift */; };
+		34FE31DF4A1BE71C0BD25ED96F7DEDCB /* RCTConvert+DevMenuREATransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 13DC8B8070156D9D3F7F6844B344CF76 /* RCTConvert+DevMenuREATransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36428193E54861E58B4F4154B3192995 /* DevMenuREAPropsNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E85C2D964877CB11788F1EC8114ABC /* DevMenuREAPropsNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		365B5050C75B4C1C3E4312E3181EC065 /* DevMenuREAParamNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6849D6C769E3A729E53BFE1396BFDB17 /* DevMenuREAParamNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3BC68ABA3DF346845166996F5D0D8219 /* DevMenuRNGestureHandlerEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B1D1B2E3A14E236F00EFFCDF248D37 /* DevMenuRNGestureHandlerEvents.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C2A7057403A0F0DA8ADA3363C57CA81 /* DevMenuREAStyleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 676ED989A335952A30D95589D6D25E24 /* DevMenuREAStyleNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3E10E8CFE609AAE7654DE47A6BE9C574 /* DevMenuGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EAD33CF34F6C6E3CFADE93C48FD764 /* DevMenuGestureRecognizer.swift */; };
+		3FC9509EAFF3453FE78CDDB16479A0B6 /* DevMenuRNPinchHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C2412D7165FB47FD43C4CEF8A12B9B8B /* DevMenuRNPinchHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		401CB5D2EE13BA65E42EB291934EDA2C /* RCTConvert+DevMenuREATransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBCB243D52C2D8244C8531DCD904D59 /* RCTConvert+DevMenuREATransition.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		45B6CA4EB92E2E50D7A5BA34F8C48C50 /* DevMenuREAClockNodes.h in Headers */ = {isa = PBXBuildFile; fileRef = BC40DFBCF4DB1C97B36EE33A7D6A924B /* DevMenuREAClockNodes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		500E70289A8D1E6298965A5D08E07864 /* DevMenuInternalModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216E18A4EA6ABA0AC92318118C0A55A4 /* DevMenuInternalModule.swift */; };
+		51DE34A7575294DB747304BA7D3402A1 /* DevMenuRNRootViewGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E45FD2359ADE50026455909F3895792 /* DevMenuRNRootViewGestureRecognizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52C1C6F4C03FE39C264D48C6F9B57F20 /* EXDevMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = C03EAB1EBA5609D7D419BA5847D550EE /* EXDevMenu.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52C57A89409EEBA3CE5D76B1CAC7C714 /* DevMenuREAAllTransitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF8AF3EC86E0DC3BB12A63915821546 /* DevMenuREAAllTransitions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A4D8568D2377D19A5EE561A35417F31 /* DevMenuREACallFuncNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B6E6026ACAEBA9DC1F40453F94647D /* DevMenuREACallFuncNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A829B492D568B4EE35605A5DF036B3F /* DevMenuRNPanHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 79994AB2CC4BD27904115411553875B6 /* DevMenuRNPanHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C42A5711DE3241758CE05D32C95AD9A /* DevMenuREACondNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 75044D510AAD4A76A9B55511DAD7ECAB /* DevMenuREACondNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CC4A586A80C5934AA5354B5426C953C /* DevMenuSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A88E5E142B527B42A99ADBE6DFE148 /* DevMenuSettings.swift */; };
+		5DF0F69843E51D4558E5FF8DF64A40CE /* DevMenuRNTapHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 639C8C3A4505D1251AC3D6B2EF2FD818 /* DevMenuRNTapHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F702E97E5294B271973D5C523E9BA9C /* DevMenuRNGestureHandlerState.h in Headers */ = {isa = PBXBuildFile; fileRef = 561F695E23E9C00AEEE24FF34992A676 /* DevMenuRNGestureHandlerState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60000BB3101A79F079F2F7DB31E54DCC /* DevMenuREAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FDADA6E6729D6A581F67765EB5299C39 /* DevMenuREAModule.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		611D1675B6BF860C83FE2088AAC367ED /* DevMenuExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9956DA069765775A9A9229051054F3 /* DevMenuExtensions.swift */; };
+		62FEEDFDC57E0195E14589EB78C01230 /* DevMenuREATransitionValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 08401F6811408ED8CBDAB81CC6B1B72B /* DevMenuREATransitionValues.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		638F0411477C1C7E22CB31A53043167A /* DevMenuREAJSCallNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C84E469A462CB3EC689A91D59CCF574 /* DevMenuREAJSCallNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		648A9E7E6DFCE7388F865831AF6FDEC8 /* DevMenuRNForceTouchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C449B1937A7B9480EE81283814AFF4 /* DevMenuRNForceTouchHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6534E88B46F690F9655119C15204CDF4 /* DevMenuRNTapHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B728197C24482E0A0CB7339DF57DA7C8 /* DevMenuRNTapHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		65DD41BAF5414C5681D444002779C483 /* DevMenuKeyCommandsInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A50BEA2080302F8FC69FC00E824A84 /* DevMenuKeyCommandsInterceptor.swift */; };
+		665A47F499A06A2B6C055D92CE7C6739 /* DevMenuREAModule.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F354D85D2AD27192AC50088EB45DFC /* DevMenuREAModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66EA1CB52F1B65BDAB757BA5E668C5CC /* DevMenuREACallFuncNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4600613D94BF9C16C8E6270D56E6BD8D /* DevMenuREACallFuncNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		67DBAA31CEE4DB1286AE54C6D197B95D /* DevMenuRNGestureHandlerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37854DD56C7AE87DA80FC4D96ED62EB5 /* DevMenuRNGestureHandlerManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		67F1376067AC1B6737D2740FEFB401AB /* DevMenuREAFunctionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7249FFB05D1130F701BB44B9A4F570F1 /* DevMenuREAFunctionNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		67FDEFE66AB6DB3D69964B12002E0422 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDE6959B89AA87F5D1446225BED831D2 /* MaterialCommunityIcons.ttf */; };
+		6946D2F34A1F217950AE6124491BB6BF /* DevMenuWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC3CAE236EC48B3665C0204843900C7 /* DevMenuWindow.swift */; };
+		6C29F32B8386EC2BD5DDC7A7017C6BE1 /* DevMenuREATransitionAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 31305C91D1F6FFE9A3C0D48CD8FF64E0 /* DevMenuREATransitionAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6E30D48DB7D94283CEC7D599E98455BB /* DevMenuREACondNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 736B5753F7234C747BD92510F25FBB27 /* DevMenuREACondNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		727A2C1C70186F269F1D6D719F78160A /* DevMenuRNLongPressHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9C1BDC6AD2EFF47F0C2583F1472EB1 /* DevMenuRNLongPressHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		736EA88570B2E624F9A0916A3B9689F1 /* DevMenuAppInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30564F90137431ABC647691117D3D8 /* DevMenuAppInstance.swift */; };
+		759A74B0E6FEA314B1F2826957B5E22B /* DevMenuModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 035B31F3900202D0608F48D8737EBC2D /* DevMenuModule.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		76706B06225E162349B27ECC650D1DD6 /* DevMenuExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF2DACBDC2884705C38ECF769FFBD84 /* DevMenuExtensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		77A9A762E408229C61A8CBAD380B4A51 /* DevMenuRNPinchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EB9C2459E503F9309D2CC625EB5C9E /* DevMenuRNPinchHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		79DF074C2C5CCEBF4500F1A87CC92981 /* MockedSafeAreaViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04799362E9D71E213DCBDBAF9CD3B53B /* MockedSafeAreaViewProvider.swift */; };
+		7B68DB02A42CDC27231E41CC3A918ECA /* DevMenuREATransition.h in Headers */ = {isa = PBXBuildFile; fileRef = C212442B56A7316CA714735A48E20A59 /* DevMenuREATransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C6C9C5D34F2996BDCB132D7C6EC53BD /* DevMenuREAValueNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AEE012416D1E819BB410A57E1D36F3 /* DevMenuREAValueNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		801E03BB5A500D85AAD6A4117B7C387D /* DevMenuREAConcatNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976E82B0B91C44E34F0F202F0E50527 /* DevMenuREAConcatNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8123BC398EB36A0D341AC3AB442A700B /* DevMenuUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E7A40B05DC87FBED960FCF5C6250E5 /* DevMenuUtils.swift */; };
+		8425CAF5C6784AEDBFD7907BB9A4C5BA /* EXDevMenuApp.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = B28D1617E7C5561E4F477673D638F93A /* EXDevMenuApp.ios.js */; };
+		852B9ACEBBF7D8108DB1E972EF9F87E7 /* DevMenuREASetNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B55F10646E0C6B554290E340E83A57 /* DevMenuREASetNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86D7C52AC6CEDAFA62F344A0E369313B /* DevMenuRNForceTouchHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B3AEF55586307056875CE3D77F7369 /* DevMenuRNForceTouchHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		872A124E8867730781801A2738AE6E73 /* DevMenuRNLongPressHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0E400472C4E759885EDAA7381DD13 /* DevMenuRNLongPressHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8A7861C40C97DED5404A0B49D4749664 /* DevMenuRNGestureHandlerEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C2E1D2BBD71B6F89F9EAF31401D04D /* DevMenuRNGestureHandlerEvents.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8FE7F15BE9496B4FE93947155AC9A630 /* DevMenuRNGestureHandlerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D09475C3F7DC5275875A73A04D8C3EFA /* DevMenuRNGestureHandlerManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90C29ABA993CD66F287B6A18E24148A6 /* DevMenuREATransformNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2558AE03F29D7A4BF54B96D3B38A26DA /* DevMenuREATransformNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90EDA1959DE1DCEDB6D41DE937D543A2 /* DevMenuRNGestureHandlerRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFA9ADE9CD38B6F40509988C71C9AB /* DevMenuRNGestureHandlerRegistry.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		96793DEC10CEBE63AECADBA35C5A53BA /* DevMenuREATransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A76DC8C9A21D031641EB2505A6BA26B8 /* DevMenuREATransition.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		96B29441A85F66841F36CD0E82E2A4FF /* DevMenuRNGestureHandlerModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BED7F38ADDCB9E421FB91B3095F9ED /* DevMenuRNGestureHandlerModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9701AF4746AD060AACDE5D2DF17881DD /* DevMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566F92CFCB99A5F322066ACA5C30595 /* DevMenuViewController.swift */; };
+		9DFE28F08AB31CF9D822D56889F4BDB2 /* DevMenuREATransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A67D71D7E90069777006E4E2F4F4B5 /* DevMenuREATransitionAnimation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9F0F644FC047298E2D4F710D3538B974 /* DevMenuRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3433A259233E867DA7C9103F4DE728 /* DevMenuRootView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9F16F5B3FFA8DD1D0197F2F056E43B0C /* dev-menu-packager-host in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE4C461E96ADCDF9F1230E18BB2E1B /* dev-menu-packager-host */; };
+		A3E8C69B7E71F9ACB757D32A856FD888 /* DevMenuRNGestureHandlerDirection.h in Headers */ = {isa = PBXBuildFile; fileRef = D91BAC8B04BEEF403A15A68A0D71DC5D /* DevMenuRNGestureHandlerDirection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A49C60F77AD452EDBD4F7235798F09E6 /* DevMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289D884C451D0C46C98C4B064BC1BA1 /* DevMenuManager.swift */; };
+		A6ABD81792B8E1CE2EE37029BD8AAD15 /* DevMenuREAEventNode.h in Headers */ = {isa = PBXBuildFile; fileRef = A14F3F8D74A52728A274E5695513F7BB /* DevMenuREAEventNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8DCB96D3D3B7D4EAFC70856D94528E2 /* RCTRootView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DAAB221734CC98AB9898EE3B332168F7 /* RCTRootView+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB3F350D6E7B2B3BC2DE313A686C3019 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 737C86A61429003914CAA40C03A90F59 /* Ionicons.ttf */; };
+		AC15594DBC84A2BD6C66BDD5EBE87D24 /* DevMenuREAConcatNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B22046DE2C77F6915917860F87A5D2D5 /* DevMenuREAConcatNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC19DA0DFE90F83838A82A4C1C4377CC /* DevMenuREANode.h in Headers */ = {isa = PBXBuildFile; fileRef = 338388B1F9551E200CDC212459625361 /* DevMenuREANode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF607FA1B12758514D1F80D182622174 /* DevMenuRNGestureHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DAB76F922987B277444C673D1DBA4E7 /* DevMenuRNGestureHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1F9FF405C51915626B6A386020EB2DB /* DevMenuRNPanHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AD0B81BBF0D32A610CB655E789CE9 /* DevMenuRNPanHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B87870B2B5A4B189AD2E87731A1BD6EE /* DevMenuREAPropsNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B99D3871A1ED0A4CF604C5775C8D9D6 /* DevMenuREAPropsNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B987D7F93C4763EE8D049A505AF2D252 /* DevMenuRNNativeViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D671E31FCFD2C563A43EAFBD471FED89 /* DevMenuRNNativeViewHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BC6126E5241304B7AA23DFB31699F53E /* DevMenuRNRotationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 616CE622958E636D7C46184359C7544A /* DevMenuRNRotationHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1FC549B9DCBD555998D8617D3896E9E /* DevMenuREAValueNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D29D91BBB53CCFE2BD69DBA4F78D8501 /* DevMenuREAValueNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C26F62D8627E2270C4F016178C386801 /* DevMenuRNRootViewGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 825C557AFF140A113319DB7249450B8E /* DevMenuRNRootViewGestureRecognizer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C2E7AE5B706E682DFE24FD2ED72E1711 /* DevMenuREASetNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 033B66F85190CC30E7F678EEC9BB4D2A /* DevMenuREASetNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C450957868A4D0267F5A8022DCC7FB9B /* DevMenuRNFlingHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E6270E6A1B887DB8B978E90AB3532C /* DevMenuRNFlingHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C6B77691449695F95C87CA95A2B96D1D /* DevMenuRNGestureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C4280563318E575150E45647C7E92B /* DevMenuRNGestureHandler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CC3A4DC917A5A03F51F1A0EDF92553EE /* EXDevMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D6C46E78C48894418D80441809319A /* EXDevMenu-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CFA37D36BDF2A7B3C178B123DB3DEB96 /* DevMenuREAFunctionNode.h in Headers */ = {isa = PBXBuildFile; fileRef = F1DF693BE72DD84F796176CD422B6B63 /* DevMenuREAFunctionNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D18E1EA920BFEEF217256F728B9608EE /* DevMenuModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A039540BF78062B4B1E8E8B55670 /* DevMenuModule.swift */; };
+		D1B6120EAA68D4186BE1F67934C3C86A /* DevMenuREATransitionValues.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E537C914A546E260BDCD5E66B7D8FB /* DevMenuREATransitionValues.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D1EEC7F7C61E0469014A3583A7CB2C62 /* DevMenuREATransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE665F5668A3A4A7F9F14AA3D3C40495 /* DevMenuREATransitionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D3569327770046F532A54671647829BF /* DevMenuREABezierNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF67D476F84A0223F5574AECDF4F0E7 /* DevMenuREABezierNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D3E2978E54A66A5C625E27BAB035F31E /* DevMenuREAParamNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D571D6D44B4C5D94128F0B6887936BDE /* DevMenuREAParamNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D59A5963F22806B446FD618EFD1343D2 /* DevMenuVendoredModulesUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 896BE40732E3433EF3B7A5F1B0A32F5F /* DevMenuVendoredModulesUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB10C0E7EC6666C8D9E2779A1060040B /* DevMenuREAOperatorNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C2AD3BF436196BA75426C3E44F1EE0 /* DevMenuREAOperatorNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC34E9C05D6E9C717BE16E239C8F2DFB /* DevMenuREABezierNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2187129B4310EB470F059EB5B79A40 /* DevMenuREABezierNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDF34C0D370F343191E484913052241D /* DevMenuInternalModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 19072D266BDB26605187D858F153EE5C /* DevMenuInternalModule.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DF19CA4952221AB68A139BE8857A124C /* DevMenuREAStyleNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E517EED51BBD766E4C68A36E6BEE4491 /* DevMenuREAStyleNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E05BE0B936B858E63F8CE9718B88C09E /* DevMenuRootView.h in Headers */ = {isa = PBXBuildFile; fileRef = 14EB609B00593EAAD426EE3A4B15F7DD /* DevMenuRootView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E1797E535E68F7659390137D7C041C6E /* DevMenuREAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A76469EA10F2FB3EE9DB813DC4FF23AA /* DevMenuREAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E33CF330EBD112F365CB22D63DB1F741 /* DevMenuREAAllTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B325B241619675072E4E7A060E4C79C /* DevMenuREAAllTransitions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E3638D7A43E26A09445446888E09BEA9 /* DevMenuRNGestureHandlerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D74058B36748843828F520A009A65D1D /* DevMenuRNGestureHandlerButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E5AD79980EED102D615F7F59EE613BDF /* DevMenuREAOperatorNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 035AF6D1A946DB06B2693B9E58B44E47 /* DevMenuREAOperatorNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E84018C0BFF3797799A28253CDB1330F /* DevMenuRNGestureHandlerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DBB8245A1160457EEC7407626CFFE5 /* DevMenuRNGestureHandlerModule.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E9FEB8BE84D0AD0A43C79D5F549C5791 /* EXDevMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF52EDFA276F4FFB254CAAA46A10987 /* EXDevMenu-dummy.m */; };
+		EAE594CBDFFCE59A705D517EB89B3EA9 /* DevMenuREABlockNode.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD86432BC4B1C52DD5CB53B60D81F60 /* DevMenuREABlockNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF0F68420DF17C4AF6A457E2ED35FEDE /* DevMenuRNGestureHandlerRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = FEC5F4BB29D4822AB0AC4B4E1AFB4CE4 /* DevMenuRNGestureHandlerRegistry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF88A549D0AFA536C32D453486DE8534 /* DevMenuREAEventNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9065F92E9D989D7D3F92E52AF368B349 /* DevMenuREAEventNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F1835741B5A095AD506E788586908393 /* RCTPerfMonitor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2BF767F4899BD71AAA00BCCD6A0B1F /* RCTPerfMonitor+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F44D3AEBC08560D8ABBF64EB34BA8499 /* DevMenuREATransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E32596B5F6205291DA379F53C7DEDF01 /* DevMenuREATransitionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F556D5F664648A699ACD32A93226826E /* DevMenuREANodesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C783219FD09D499E5F2D014B349CF2F /* DevMenuREANodesManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F6A1FA251E2F50C127F6722964394B46 /* DevMenuTouchInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E492E222541D49E6467CADD208CC679 /* DevMenuTouchInterceptor.swift */; };
+		F8D0A525C91ACCA68D4C8E7D3FB33F58 /* DevMenuRNFlingHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A62299847A5C4838B812B743F749A9 /* DevMenuRNFlingHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FAB27272BF209B3499FEAEE7959B7432 /* EXDevMenu-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 781DB1BCCA90A77F19FF0AEA3AE6B123 /* EXDevMenu-Bridging-Header.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB8CA4F118656E8065CE6C5FD8AC9908 /* DevMenuVendoredModulesUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E241A4422266DABD703F261D953CCB /* DevMenuVendoredModulesUtils.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FDFBC9EF22DD6202BEF6D6D7A7339D43 /* DevMenuREAJSCallNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 479E877B769BDD6BB965C968F6FA1C25 /* DevMenuREAJSCallNode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FEB4E054EAE24982EA8B6A786F3576F0 /* DevMenuREANodesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC12E2D05CCD49EA8F3A7DF518B9B7A /* DevMenuREANodesManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3AC3C02477F209DF3439DEA9FAEE9275 /* PBXContainerItemProxy */ = {
+		95C06D9ED358581A04E6B8439B92C704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54EE39D346C892DD324864B4957C0EEF /* React.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 94DA87F24FB4B93E5D08FE961D5E5A3E;
+			remoteInfo = React;
+		};
+		B58DEBCA569DCE4724A8C7ACF0D7E300 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E4AF4E424B1F5DC7F1A7083CCAED6A6A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3BFA089DA2CCEF1C173573D5A84C2A10;
 			remoteInfo = "EXDevMenu-EXDevMenu";
 		};
-		455AFFE5A018D54F5E8A6E53509F6078 /* PBXContainerItemProxy */ = {
+		CEA6B9A995E4734BAE359AD0BBC0736E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DB1EF2AC1A0457099E21473409564512 /* React.xcodeproj */;
+			containerPortal = 940BD29C0A35F52165C2432059EECBDB /* expo-dev-menu-interface.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 94DA87F24FB4B93E5D08FE961D5E5A3E;
-			remoteInfo = React;
-		};
-		DD0AADDA28A0CC856E085ADFA3C01DDB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E2CD0D4CDF5B230204076A8882319DE /* EXDevMenuInterface.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D3A2802599AB5CFD5DCC16429ABBF2C;
-			remoteInfo = EXDevMenuInterface;
+			remoteGlobalIDString = EA5CD250B8A6DE0639CB6EC046B239A9;
+			remoteInfo = "expo-dev-menu-interface";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -170,7 +170,6 @@
 		16C2AD3BF436196BA75426C3E44F1EE0 /* DevMenuREAOperatorNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DevMenuREAOperatorNode.h; sourceTree = "<group>"; };
 		18E85C2D964877CB11788F1EC8114ABC /* DevMenuREAPropsNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DevMenuREAPropsNode.h; sourceTree = "<group>"; };
 		19072D266BDB26605187D858F153EE5C /* DevMenuInternalModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DevMenuInternalModule.m; sourceTree = "<group>"; };
-		1E2CD0D4CDF5B230204076A8882319DE /* EXDevMenuInterface */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EXDevMenuInterface; path = EXDevMenuInterface.xcodeproj; sourceTree = "<group>"; };
 		216E18A4EA6ABA0AC92318118C0A55A4 /* DevMenuInternalModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DevMenuInternalModule.swift; sourceTree = "<group>"; };
 		21A62299847A5C4838B812B743F749A9 /* DevMenuRNFlingHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DevMenuRNFlingHandler.h; sourceTree = "<group>"; };
 		22B62D14C1AB4E15AAB97A56C926E809 /* DevMenuREADebugNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DevMenuREADebugNode.h; sourceTree = "<group>"; };
@@ -202,6 +201,7 @@
 		4B99D3871A1ED0A4CF604C5775C8D9D6 /* DevMenuREAPropsNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DevMenuREAPropsNode.m; sourceTree = "<group>"; };
 		4E98A79CD663A7660525DC633AFA2DD7 /* EXDevMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXDevMenu-prefix.pch"; sourceTree = "<group>"; };
 		4F619D00A1DEEFEE7B81C2A180D878C2 /* DevMenuRNRotationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DevMenuRNRotationHandler.m; sourceTree = "<group>"; };
+		54EE39D346C892DD324864B4957C0EEF /* React */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React; path = React.xcodeproj; sourceTree = "<group>"; };
 		561F695E23E9C00AEEE24FF34992A676 /* DevMenuRNGestureHandlerState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DevMenuRNGestureHandlerState.h; sourceTree = "<group>"; };
 		5AF8AF3EC86E0DC3BB12A63915821546 /* DevMenuREAAllTransitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DevMenuREAAllTransitions.h; sourceTree = "<group>"; };
 		5C84E469A462CB3EC689A91D59CCF574 /* DevMenuREAJSCallNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DevMenuREAJSCallNode.h; sourceTree = "<group>"; };
@@ -233,6 +233,7 @@
 		8FFADDF6F1CABB1AE6E33D6DD04FD808 /* DevMenuMotionInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DevMenuMotionInterceptor.swift; sourceTree = "<group>"; };
 		9065F92E9D989D7D3F92E52AF368B349 /* DevMenuREAEventNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DevMenuREAEventNode.m; sourceTree = "<group>"; };
 		920E7317BFDC7D1AB56DBE76786FD0BC /* DevMenuRNNativeViewHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DevMenuRNNativeViewHandler.h; sourceTree = "<group>"; };
+		940BD29C0A35F52165C2432059EECBDB /* expo-dev-menu-interface */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "expo-dev-menu-interface"; path = "expo-dev-menu-interface.xcodeproj"; sourceTree = "<group>"; };
 		9566F92CFCB99A5F322066ACA5C30595 /* DevMenuViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DevMenuViewController.swift; sourceTree = "<group>"; };
 		9FC12E2D05CCD49EA8F3A7DF518B9B7A /* DevMenuREANodesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DevMenuREANodesManager.h; sourceTree = "<group>"; };
 		A0E537C914A546E260BDCD5E66B7D8FB /* DevMenuREATransitionValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DevMenuREATransitionValues.m; sourceTree = "<group>"; };
@@ -266,7 +267,6 @@
 		D74058B36748843828F520A009A65D1D /* DevMenuRNGestureHandlerButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DevMenuRNGestureHandlerButton.m; sourceTree = "<group>"; };
 		D91BAC8B04BEEF403A15A68A0D71DC5D /* DevMenuRNGestureHandlerDirection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DevMenuRNGestureHandlerDirection.h; sourceTree = "<group>"; };
 		DAAB221734CC98AB9898EE3B332168F7 /* RCTRootView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCTRootView+Private.h"; sourceTree = "<group>"; };
-		DB1EF2AC1A0457099E21473409564512 /* React */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React; path = React.xcodeproj; sourceTree = "<group>"; };
 		DBD2F9A733CBF0A67B91DFA2F90267C5 /* DevMenuREAClockNodes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DevMenuREAClockNodes.m; sourceTree = "<group>"; };
 		DFF2DACBDC2884705C38ECF769FFBD84 /* DevMenuExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DevMenuExtensions.m; sourceTree = "<group>"; };
 		E1B55F10646E0C6B554290E340E83A57 /* DevMenuREASetNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DevMenuREASetNode.h; sourceTree = "<group>"; };
@@ -286,14 +286,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C5E77B72479ADDC14C631001C5B89409 /* Frameworks */ = {
+		55DDE1A1F14458BCC193CA55B8443899 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6E57AF220FE02C20E16242836B0AF18 /* Frameworks */ = {
+		700FCB87B88C6C9889C55428E067D42B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,15 +326,6 @@
 			);
 			name = ios;
 			path = ios;
-			sourceTree = "<group>";
-		};
-		032AA755E68152E4AD22F4BF3BF01EAC /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				1E2CD0D4CDF5B230204076A8882319DE /* EXDevMenuInterface */,
-				DB1EF2AC1A0457099E21473409564512 /* React */,
-			);
-			name = Dependencies;
 			sourceTree = "<group>";
 		};
 		0A223B216417C3CCEC60D3F3F3579D3B /* Interceptors */ = {
@@ -387,7 +378,7 @@
 		35363E413E8E0076FA1E015F7B9C895B = {
 			isa = PBXGroup;
 			children = (
-				032AA755E68152E4AD22F4BF3BF01EAC /* Dependencies */,
+				8114EFF64F5E0BB2CD9D532E5DB83C53 /* Dependencies */,
 				585A95CDAFEDDAADA205FE540765DE14 /* EXDevMenu */,
 				F4858A7770E5B73EED4327339A4C31FE /* Frameworks */,
 				8F5CBC12E96BD779F60A2D46F461235C /* Products */,
@@ -473,6 +464,15 @@
 			);
 			name = ios;
 			path = ios;
+			sourceTree = "<group>";
+		};
+		8114EFF64F5E0BB2CD9D532E5DB83C53 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				940BD29C0A35F52165C2432059EECBDB /* expo-dev-menu-interface */,
+				54EE39D346C892DD324864B4957C0EEF /* React */,
+			);
+			name = Dependencies;
 			sourceTree = "<group>";
 		};
 		8C62E6DA2F099685BC6FBD1B1FDC5586 /* react-native-reanimated */ = {
@@ -608,62 +608,62 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F64F2C77DFA03F130E6BF821E920FCB8 /* Headers */ = {
+		E12F8AAEEB805B8B728CC88F1AED2435 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B46971C3298C127CF7291C3CD1F728F /* DevMenuREAAllTransitions.h in Headers */,
-				C3CDF42CB06D60B0782EFAB3BAC063BE /* DevMenuREAAlwaysNode.h in Headers */,
-				E3DF62B2FD1B9652E5CFC5BA94164A7A /* DevMenuREABezierNode.h in Headers */,
-				A0C2C1AB83984435CC8D7657A3E7D45B /* DevMenuREABlockNode.h in Headers */,
-				CCFC23690A5EB2195D65668D7139831B /* DevMenuREACallFuncNode.h in Headers */,
-				C7491624FC09CA99FF0A2A4EF86B3538 /* DevMenuREAClockNodes.h in Headers */,
-				B9EC13CD49EB58DC6B4B6072467904A9 /* DevMenuREAConcatNode.h in Headers */,
-				6C4E2D1B33AF488277E4AC0F8838BAF7 /* DevMenuREACondNode.h in Headers */,
-				ACEBC0027E26B9EFE2252288C456F422 /* DevMenuREADebugNode.h in Headers */,
-				66ED4AC48B52F1B40509FA7D28F62479 /* DevMenuREAEventNode.h in Headers */,
-				A0F25684AE9C801CA1C91E79FB57989C /* DevMenuREAFunctionNode.h in Headers */,
-				A5FFFB54C9247C8E5F83EA3D096B65FB /* DevMenuREAJSCallNode.h in Headers */,
-				FD512CCFCB76F357A6F4E93A5114B4D9 /* DevMenuREAModule.h in Headers */,
-				18878F2F62A163F7EE1FF678E6A1C190 /* DevMenuREANode.h in Headers */,
-				967D6705EB78CF76405D3F3250ED615B /* DevMenuREANodesManager.h in Headers */,
-				25F0B343CB0A24B2D02D2660C5CD4776 /* DevMenuREAOperatorNode.h in Headers */,
-				9BBA2E568FE6EF13BACBB6DB53762180 /* DevMenuREAParamNode.h in Headers */,
-				F86427E7067991B92A825875DB210E41 /* DevMenuREAPropsNode.h in Headers */,
-				DC48161FE5ECB522C7A68C426C868A67 /* DevMenuREASetNode.h in Headers */,
-				4E61EFB239E47F0373464303EEAD9F6D /* DevMenuREAStyleNode.h in Headers */,
-				E1E0586ACB3636E83BACCB7C31758ED0 /* DevMenuREATransformNode.h in Headers */,
-				0EC22199D1A049D46BD7BF5A44682669 /* DevMenuREATransition.h in Headers */,
-				69FEE7A55DD44A2712247129496564C9 /* DevMenuREATransitionAnimation.h in Headers */,
-				590B7BEF7E2E8C2EAF693EA35E8B461D /* DevMenuREATransitionManager.h in Headers */,
-				DB0A5A3A61B9AF478ABB85DD75EE7364 /* DevMenuREATransitionValues.h in Headers */,
-				83DC1B8D9878C67DC9E8E3088EC1B95E /* DevMenuREAUtils.h in Headers */,
-				B0DAEB31BADB2E930E5696F4254720C6 /* DevMenuREAValueNode.h in Headers */,
-				0E9682296179724B894D5150902F3B1C /* DevMenuRNFlingHandler.h in Headers */,
-				85527D87EAE180E529DC519778F888D9 /* DevMenuRNForceTouchHandler.h in Headers */,
-				0F3735DE1CFC515F90AA92E470A4540B /* DevMenuRNGestureHandler.h in Headers */,
-				0BF1116325B878CE3D71BA99B0CA6DB8 /* DevMenuRNGestureHandlerButton.h in Headers */,
-				BF70C6D0E0F035E7E2C715DE1F6713F7 /* DevMenuRNGestureHandlerDirection.h in Headers */,
-				5414731F49C8CCBA89881F637404547F /* DevMenuRNGestureHandlerEvents.h in Headers */,
-				EE92FB0AE8D477257D62F5EF1D0AD86B /* DevMenuRNGestureHandlerManager.h in Headers */,
-				65E99483FC3A15885A5498AFBA6E1E74 /* DevMenuRNGestureHandlerModule.h in Headers */,
-				B097F5BD72FA44344996B0A85962A324 /* DevMenuRNGestureHandlerRegistry.h in Headers */,
-				49C52599E9A5FAEDF3DBC05353C13BCC /* DevMenuRNGestureHandlerState.h in Headers */,
-				6E387D4F62B6731174AB14AEB58F4B0E /* DevMenuRNLongPressHandler.h in Headers */,
-				F4683320AC6CB94720DAAAF4E879A190 /* DevMenuRNNativeViewHandler.h in Headers */,
-				8D3B83F76BFDFD17D48D593145EBE09F /* DevMenuRNPanHandler.h in Headers */,
-				AC493446A83334E07ED6D78AD3DCFC10 /* DevMenuRNPinchHandler.h in Headers */,
-				83A846ECEA6E1E564C2A8782B610CBC6 /* DevMenuRNRootViewGestureRecognizer.h in Headers */,
-				6B1FCE99F5E0E1A069A0F4FECD80F9BF /* DevMenuRNRotationHandler.h in Headers */,
-				AE5CFDC6DE75AA1A9322DC4C0A5AFC35 /* DevMenuRNTapHandler.h in Headers */,
-				27B2D9A09DBBC9A3DFA519E2AA36232C /* DevMenuRootView.h in Headers */,
-				DD843CBEFFC663454D6F38F04E942759 /* DevMenuVendoredModulesUtils.h in Headers */,
-				CA0E4E3DC2DBF9D9F4C77B038BAC3F00 /* EXDevMenu-Bridging-Header.h in Headers */,
-				F0DF524675B08C5ED8E3FD3CF2776E02 /* EXDevMenu-umbrella.h in Headers */,
-				7ABD60F793503D198100A7F0ECDB9FA5 /* EXDevMenu.h in Headers */,
-				072E465816AC0D3B5A318027782CABE4 /* RCTConvert+DevMenuREATransition.h in Headers */,
-				CC5AD6E9F5AC1AB79931509856E0D72D /* RCTPerfMonitor+Private.h in Headers */,
-				77F130BD45C62A75C39E149B8FC41AF6 /* RCTRootView+Private.h in Headers */,
+				52C57A89409EEBA3CE5D76B1CAC7C714 /* DevMenuREAAllTransitions.h in Headers */,
+				3205EB95B96DD93EE1E8F7BD726BE3EB /* DevMenuREAAlwaysNode.h in Headers */,
+				DC34E9C05D6E9C717BE16E239C8F2DFB /* DevMenuREABezierNode.h in Headers */,
+				EAE594CBDFFCE59A705D517EB89B3EA9 /* DevMenuREABlockNode.h in Headers */,
+				5A4D8568D2377D19A5EE561A35417F31 /* DevMenuREACallFuncNode.h in Headers */,
+				45B6CA4EB92E2E50D7A5BA34F8C48C50 /* DevMenuREAClockNodes.h in Headers */,
+				AC15594DBC84A2BD6C66BDD5EBE87D24 /* DevMenuREAConcatNode.h in Headers */,
+				5C42A5711DE3241758CE05D32C95AD9A /* DevMenuREACondNode.h in Headers */,
+				024242A12A20E700E55735BF4B00E44D /* DevMenuREADebugNode.h in Headers */,
+				A6ABD81792B8E1CE2EE37029BD8AAD15 /* DevMenuREAEventNode.h in Headers */,
+				CFA37D36BDF2A7B3C178B123DB3DEB96 /* DevMenuREAFunctionNode.h in Headers */,
+				638F0411477C1C7E22CB31A53043167A /* DevMenuREAJSCallNode.h in Headers */,
+				665A47F499A06A2B6C055D92CE7C6739 /* DevMenuREAModule.h in Headers */,
+				AC19DA0DFE90F83838A82A4C1C4377CC /* DevMenuREANode.h in Headers */,
+				FEB4E054EAE24982EA8B6A786F3576F0 /* DevMenuREANodesManager.h in Headers */,
+				DB10C0E7EC6666C8D9E2779A1060040B /* DevMenuREAOperatorNode.h in Headers */,
+				365B5050C75B4C1C3E4312E3181EC065 /* DevMenuREAParamNode.h in Headers */,
+				36428193E54861E58B4F4154B3192995 /* DevMenuREAPropsNode.h in Headers */,
+				852B9ACEBBF7D8108DB1E972EF9F87E7 /* DevMenuREASetNode.h in Headers */,
+				DF19CA4952221AB68A139BE8857A124C /* DevMenuREAStyleNode.h in Headers */,
+				90C29ABA993CD66F287B6A18E24148A6 /* DevMenuREATransformNode.h in Headers */,
+				7B68DB02A42CDC27231E41CC3A918ECA /* DevMenuREATransition.h in Headers */,
+				6C29F32B8386EC2BD5DDC7A7017C6BE1 /* DevMenuREATransitionAnimation.h in Headers */,
+				F44D3AEBC08560D8ABBF64EB34BA8499 /* DevMenuREATransitionManager.h in Headers */,
+				62FEEDFDC57E0195E14589EB78C01230 /* DevMenuREATransitionValues.h in Headers */,
+				E1797E535E68F7659390137D7C041C6E /* DevMenuREAUtils.h in Headers */,
+				C1FC549B9DCBD555998D8617D3896E9E /* DevMenuREAValueNode.h in Headers */,
+				F8D0A525C91ACCA68D4C8E7D3FB33F58 /* DevMenuRNFlingHandler.h in Headers */,
+				86D7C52AC6CEDAFA62F344A0E369313B /* DevMenuRNForceTouchHandler.h in Headers */,
+				AF607FA1B12758514D1F80D182622174 /* DevMenuRNGestureHandler.h in Headers */,
+				15A18DC1C897CDC053DDA5B7D134B7C4 /* DevMenuRNGestureHandlerButton.h in Headers */,
+				A3E8C69B7E71F9ACB757D32A856FD888 /* DevMenuRNGestureHandlerDirection.h in Headers */,
+				3BC68ABA3DF346845166996F5D0D8219 /* DevMenuRNGestureHandlerEvents.h in Headers */,
+				8FE7F15BE9496B4FE93947155AC9A630 /* DevMenuRNGestureHandlerManager.h in Headers */,
+				96B29441A85F66841F36CD0E82E2A4FF /* DevMenuRNGestureHandlerModule.h in Headers */,
+				EF0F68420DF17C4AF6A457E2ED35FEDE /* DevMenuRNGestureHandlerRegistry.h in Headers */,
+				5F702E97E5294B271973D5C523E9BA9C /* DevMenuRNGestureHandlerState.h in Headers */,
+				727A2C1C70186F269F1D6D719F78160A /* DevMenuRNLongPressHandler.h in Headers */,
+				2A9900CEB8E496CEFD18B44011EC0EA8 /* DevMenuRNNativeViewHandler.h in Headers */,
+				5A829B492D568B4EE35605A5DF036B3F /* DevMenuRNPanHandler.h in Headers */,
+				3FC9509EAFF3453FE78CDDB16479A0B6 /* DevMenuRNPinchHandler.h in Headers */,
+				51DE34A7575294DB747304BA7D3402A1 /* DevMenuRNRootViewGestureRecognizer.h in Headers */,
+				BC6126E5241304B7AA23DFB31699F53E /* DevMenuRNRotationHandler.h in Headers */,
+				5DF0F69843E51D4558E5FF8DF64A40CE /* DevMenuRNTapHandler.h in Headers */,
+				E05BE0B936B858E63F8CE9718B88C09E /* DevMenuRootView.h in Headers */,
+				D59A5963F22806B446FD618EFD1343D2 /* DevMenuVendoredModulesUtils.h in Headers */,
+				FAB27272BF209B3499FEAEE7959B7432 /* EXDevMenu-Bridging-Header.h in Headers */,
+				CC3A4DC917A5A03F51F1A0EDF92553EE /* EXDevMenu-umbrella.h in Headers */,
+				52C1C6F4C03FE39C264D48C6F9B57F20 /* EXDevMenu.h in Headers */,
+				34FE31DF4A1BE71C0BD25ED96F7DEDCB /* RCTConvert+DevMenuREATransition.h in Headers */,
+				F1835741B5A095AD506E788586908393 /* RCTPerfMonitor+Private.h in Headers */,
+				A8DCB96D3D3B7D4EAFC70856D94528E2 /* RCTRootView+Private.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,19 +672,19 @@
 /* Begin PBXNativeTarget section */
 		27DF359C8E918B12F36C792D67038350 /* EXDevMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8BF6BD4907744D00774E14ED705015A /* Build configuration list for PBXNativeTarget "EXDevMenu" */;
+			buildConfigurationList = 0C3354AE99985B88BB8EB10229028C19 /* Build configuration list for PBXNativeTarget "EXDevMenu" */;
 			buildPhases = (
-				F64F2C77DFA03F130E6BF821E920FCB8 /* Headers */,
-				3B603CD19F9096B41DD8920398C86886 /* Sources */,
-				E6E57AF220FE02C20E16242836B0AF18 /* Frameworks */,
-				B37F89543F7420D6E8D2CC71F92C0B68 /* Copy generated compatibility header */,
+				E12F8AAEEB805B8B728CC88F1AED2435 /* Headers */,
+				5B8330E39948A848FD221AB6F67FA793 /* Sources */,
+				55DDE1A1F14458BCC193CA55B8443899 /* Frameworks */,
+				52AED2E609A0BC91C8D10DB1C3ECC35C /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BB29DE71379FE16B9AC164722033305E /* PBXTargetDependency */,
-				7A5E0CA44356CF59248C636AEA4C0D76 /* PBXTargetDependency */,
-				C525BACD04EFCCD325198E9B79CA5BDE /* PBXTargetDependency */,
+				7A2637EA5233CC081BB93D751F161AF9 /* PBXTargetDependency */,
+				96B251D01C51065752DCABE9CFCDAEBF /* PBXTargetDependency */,
+				4E580BF64D0A14FEF74FB8374852BF86 /* PBXTargetDependency */,
 			);
 			name = EXDevMenu;
 			productName = EXDevMenu;
@@ -693,11 +693,11 @@
 		};
 		3BFA089DA2CCEF1C173573D5A84C2A10 /* EXDevMenu-EXDevMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0080E76338B8F89599DAA468B6F9D216 /* Build configuration list for PBXNativeTarget "EXDevMenu-EXDevMenu" */;
+			buildConfigurationList = D54C9729B475D39E5047F30BBAD02538 /* Build configuration list for PBXNativeTarget "EXDevMenu-EXDevMenu" */;
 			buildPhases = (
-				AA38A994FFFCE73CFE6BCB486FFEF2A6 /* Sources */,
-				C5E77B72479ADDC14C631001C5B89409 /* Frameworks */,
-				14B09852BFD028B55BFBB0BE927E924F /* Resources */,
+				4A8496DA87CCDB4633B3DF8F18E909CD /* Sources */,
+				700FCB87B88C6C9889C55428E067D42B /* Frameworks */,
+				52859398455B50D5DA1901F9D9F15CBE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -730,10 +730,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = DB1EF2AC1A0457099E21473409564512 /* React */;
+					ProjectRef = 54EE39D346C892DD324864B4957C0EEF /* React */;
 				},
 				{
-					ProjectRef = 1E2CD0D4CDF5B230204076A8882319DE /* EXDevMenuInterface */;
+					ProjectRef = 940BD29C0A35F52165C2432059EECBDB /* expo-dev-menu-interface */;
 				},
 			);
 			projectRoot = "";
@@ -745,21 +745,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14B09852BFD028B55BFBB0BE927E924F /* Resources */ = {
+		52859398455B50D5DA1901F9D9F15CBE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A28FE75233940844036E1F4DCFA0A2CC /* dev-menu-packager-host in Resources */,
-				AA667E5E75F3F157DA1EC850A1EAB467 /* EXDevMenuApp.ios.js in Resources */,
-				34DE3A5D90D29FAC5A3FA5E2628B5725 /* Ionicons.ttf in Resources */,
-				367F83999EE3D3BBED7A179D70853F28 /* MaterialCommunityIcons.ttf in Resources */,
+				9F16F5B3FFA8DD1D0197F2F056E43B0C /* dev-menu-packager-host in Resources */,
+				8425CAF5C6784AEDBFD7907BB9A4C5BA /* EXDevMenuApp.ios.js in Resources */,
+				AB3F350D6E7B2B3BC2DE313A686C3019 /* Ionicons.ttf in Resources */,
+				67FDEFE66AB6DB3D69964B12002E0422 /* MaterialCommunityIcons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B37F89543F7420D6E8D2CC71F92C0B68 /* Copy generated compatibility header */ = {
+		52AED2E609A0BC91C8D10DB1C3ECC35C /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -786,123 +786,106 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B603CD19F9096B41DD8920398C86886 /* Sources */ = {
+		4A8496DA87CCDB4633B3DF8F18E909CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54FEC2145F00B87C72D40B6702C2B1BC /* DevMenuAppInstance.swift in Sources */,
-				297B9D12CA7973D74D52A0A9E226DDF1 /* DevMenuExtensions.m in Sources */,
-				9B5E146D3283ED86AC9CFD596BF71EF2 /* DevMenuExtensions.swift in Sources */,
-				503E3616539BC8469435EB129869B128 /* DevMenuGestureRecognizer.swift in Sources */,
-				690C51E891B3FD0745C39852ACA96B1C /* DevMenuInternalModule.m in Sources */,
-				874D4C3F0A94AFE1AE0656B3A4689C3F /* DevMenuInternalModule.swift in Sources */,
-				BD7D65D3B61CB63011FB0B3D90523030 /* DevMenuKeyCommandsInterceptor.swift in Sources */,
-				C74071B7C810B83443750E70A3C98428 /* DevMenuManager.swift in Sources */,
-				BC850D32B8C60EC596EC22ADD12FAEEF /* DevMenuModule.m in Sources */,
-				72BEFAC4B537E83B841651BF67DC0280 /* DevMenuModule.swift in Sources */,
-				6B5AAD55DE90383498AC8551DEE7D42D /* DevMenuMotionInterceptor.swift in Sources */,
-				D6289AB738F638719740BA8E7F2F3573 /* DevMenuREAAllTransitions.m in Sources */,
-				D09BB1C736838B0BC2B34104FB36EFDA /* DevMenuREAAlwaysNode.m in Sources */,
-				4C4863043D173A615A6A854A8095C352 /* DevMenuREABezierNode.m in Sources */,
-				E8BAEF84947A335B79F5C6FE04036C0D /* DevMenuREABlockNode.m in Sources */,
-				ABFC90F682FFD8A0AE23CC8B7549E1DF /* DevMenuREACallFuncNode.m in Sources */,
-				C0DBB4FA2E19A3A297B0DB677E57A7E8 /* DevMenuREAClockNodes.m in Sources */,
-				0572A6159A99953B97D4AC2072CFE49D /* DevMenuREAConcatNode.m in Sources */,
-				FE40ED071FDCC28EAF25BC496DF4014F /* DevMenuREACondNode.m in Sources */,
-				2DB1398CDBEF3811AC3887B69B1B9551 /* DevMenuREADebugNode.m in Sources */,
-				4585D53BE60CE0E5311B534D428B8270 /* DevMenuREAEventNode.m in Sources */,
-				2FE852D62C8F90831777739063138844 /* DevMenuREAFunctionNode.m in Sources */,
-				E3C0F43B1F7B97567D493C9F781ECDA8 /* DevMenuREAJSCallNode.m in Sources */,
-				344EE647279922892C806CAE49B28733 /* DevMenuREAModule.m in Sources */,
-				44F3FC9545FDB5063A74FF8C32B8CD6F /* DevMenuREANode.m in Sources */,
-				BA9FE341CCE1149FDD8A0ED2E7E099E3 /* DevMenuREANodesManager.m in Sources */,
-				11C4103DE34E8B76DE6B6F9FCA678BFD /* DevMenuREAOperatorNode.m in Sources */,
-				A3D80604280FD994768F42607C5DC021 /* DevMenuREAParamNode.m in Sources */,
-				986D7B87DB4906417FFFBB30EAB7237C /* DevMenuREAPropsNode.m in Sources */,
-				2E12FD00B9249E35EA4547B30937925F /* DevMenuREASetNode.m in Sources */,
-				B4C7FF647A4ED0D3036FBB2DC23C1F3F /* DevMenuREAStyleNode.m in Sources */,
-				BFE9D7A7D4C570351C3E28AA96917EEE /* DevMenuREATransformNode.m in Sources */,
-				1787F2CD2004A09F1397200A4AB826F4 /* DevMenuREATransition.m in Sources */,
-				3C2AF8EC6C1870B2A43B444C06B0A55D /* DevMenuREATransitionAnimation.m in Sources */,
-				DB22A03E3D31EFE5DEFD2D337F739BD7 /* DevMenuREATransitionManager.m in Sources */,
-				12EF7A637BC6EBDF41F32A34F49606A5 /* DevMenuREATransitionValues.m in Sources */,
-				4B34D5FDA61E74B8C2D5F5488EECF0B8 /* DevMenuREAValueNode.m in Sources */,
-				75812C53DE1D213316A0B115F36FF4D5 /* DevMenuRNFlingHandler.m in Sources */,
-				8559908DD581A8D28FFAF82BEE6CC50E /* DevMenuRNForceTouchHandler.m in Sources */,
-				2BD3925C4EDB1E064C1882ED1E505FF2 /* DevMenuRNGestureHandler.m in Sources */,
-				B58222229EAE1E69EBB0580F43AE0147 /* DevMenuRNGestureHandlerButton.m in Sources */,
-				96C9F290ABD58BEC7B977866CDD039D8 /* DevMenuRNGestureHandlerEvents.m in Sources */,
-				8C2978CDEFBE1BF5A0C3E0F98B658E17 /* DevMenuRNGestureHandlerManager.m in Sources */,
-				84192E35CD4CA0A7A5B8FBE519344799 /* DevMenuRNGestureHandlerModule.m in Sources */,
-				B49411186AA7DF723C98C7B7B9F5CEFD /* DevMenuRNGestureHandlerRegistry.m in Sources */,
-				3F267ABBF8B3C930DBE01A1A050445EA /* DevMenuRNLongPressHandler.m in Sources */,
-				B7D7988C66CAE6A3DE1A9789E144D111 /* DevMenuRNNativeViewHandler.m in Sources */,
-				3EB1D446F0CC0970670851199A0F33CB /* DevMenuRNPanHandler.m in Sources */,
-				561EB9C39D569ABDA5982C0683C0C77D /* DevMenuRNPinchHandler.m in Sources */,
-				862F4BCC5518423CB5769F051208B637 /* DevMenuRNRootViewGestureRecognizer.m in Sources */,
-				C0A822F511AF4BFDBF6E2EF7C8AB4E96 /* DevMenuRNRotationHandler.m in Sources */,
-				B09F3F56C4F3A7AF8621079496255A91 /* DevMenuRNTapHandler.m in Sources */,
-				9647035043A77FEB8020E504A52FC097 /* DevMenuRootView.m in Sources */,
-				6B0469649B56F80999159973057C2D6F /* DevMenuSession.swift in Sources */,
-				67A14AA842B9F06EB614D4054B7B3441 /* DevMenuSettings.swift in Sources */,
-				E45E928FBF069EF8C17053802FC7D20A /* DevMenuTouchInterceptor.swift in Sources */,
-				C7E3949DE02A6D7D0CB9DAFEF7FF3BAB /* DevMenuUtils.swift in Sources */,
-				5845614B9508DB23CB4C5396168A0137 /* DevMenuVendoredModulesUtils.m in Sources */,
-				1FEBC798ECED8A25B9947C3536191774 /* DevMenuViewController.swift in Sources */,
-				5938485BD95BDA7C354F342D52C983B0 /* DevMenuWindow.swift in Sources */,
-				40FC888D8EF15792EF8811F6F3B22674 /* EXDevMenu-dummy.m in Sources */,
-				90550977AA6DB1DE03BF3F1315A39200 /* MockedSafeAreaViewProvider.swift in Sources */,
-				14C77565E0150F71E28C8F5CCDF3DF14 /* RCTConvert+DevMenuREATransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA38A994FFFCE73CFE6BCB486FFEF2A6 /* Sources */ = {
+		5B8330E39948A848FD221AB6F67FA793 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736EA88570B2E624F9A0916A3B9689F1 /* DevMenuAppInstance.swift in Sources */,
+				76706B06225E162349B27ECC650D1DD6 /* DevMenuExtensions.m in Sources */,
+				611D1675B6BF860C83FE2088AAC367ED /* DevMenuExtensions.swift in Sources */,
+				3E10E8CFE609AAE7654DE47A6BE9C574 /* DevMenuGestureRecognizer.swift in Sources */,
+				DDF34C0D370F343191E484913052241D /* DevMenuInternalModule.m in Sources */,
+				500E70289A8D1E6298965A5D08E07864 /* DevMenuInternalModule.swift in Sources */,
+				65DD41BAF5414C5681D444002779C483 /* DevMenuKeyCommandsInterceptor.swift in Sources */,
+				A49C60F77AD452EDBD4F7235798F09E6 /* DevMenuManager.swift in Sources */,
+				759A74B0E6FEA314B1F2826957B5E22B /* DevMenuModule.m in Sources */,
+				D18E1EA920BFEEF217256F728B9608EE /* DevMenuModule.swift in Sources */,
+				3217A9FA7DA0BA91EF4F6411814C936F /* DevMenuMotionInterceptor.swift in Sources */,
+				E33CF330EBD112F365CB22D63DB1F741 /* DevMenuREAAllTransitions.m in Sources */,
+				15072F52C4D1EDAC74285CEB0052F9AE /* DevMenuREAAlwaysNode.m in Sources */,
+				D3569327770046F532A54671647829BF /* DevMenuREABezierNode.m in Sources */,
+				15F544776E29EAB6A6EFDD76B09F2606 /* DevMenuREABlockNode.m in Sources */,
+				66EA1CB52F1B65BDAB757BA5E668C5CC /* DevMenuREACallFuncNode.m in Sources */,
+				0CED4E33B6240B708DF37A7BAF42BAFC /* DevMenuREAClockNodes.m in Sources */,
+				801E03BB5A500D85AAD6A4117B7C387D /* DevMenuREAConcatNode.m in Sources */,
+				6E30D48DB7D94283CEC7D599E98455BB /* DevMenuREACondNode.m in Sources */,
+				11C4EC6F0DE152EBFD24AE0DACD0285D /* DevMenuREADebugNode.m in Sources */,
+				EF88A549D0AFA536C32D453486DE8534 /* DevMenuREAEventNode.m in Sources */,
+				67F1376067AC1B6737D2740FEFB401AB /* DevMenuREAFunctionNode.m in Sources */,
+				FDFBC9EF22DD6202BEF6D6D7A7339D43 /* DevMenuREAJSCallNode.m in Sources */,
+				60000BB3101A79F079F2F7DB31E54DCC /* DevMenuREAModule.m in Sources */,
+				30CACB0E85061E5BD8BBC0DA92358849 /* DevMenuREANode.m in Sources */,
+				F556D5F664648A699ACD32A93226826E /* DevMenuREANodesManager.m in Sources */,
+				E5AD79980EED102D615F7F59EE613BDF /* DevMenuREAOperatorNode.m in Sources */,
+				D3E2978E54A66A5C625E27BAB035F31E /* DevMenuREAParamNode.m in Sources */,
+				B87870B2B5A4B189AD2E87731A1BD6EE /* DevMenuREAPropsNode.m in Sources */,
+				C2E7AE5B706E682DFE24FD2ED72E1711 /* DevMenuREASetNode.m in Sources */,
+				3C2A7057403A0F0DA8ADA3363C57CA81 /* DevMenuREAStyleNode.m in Sources */,
+				1B537E64C59A5BF997465A5BFB9C6540 /* DevMenuREATransformNode.m in Sources */,
+				96793DEC10CEBE63AECADBA35C5A53BA /* DevMenuREATransition.m in Sources */,
+				9DFE28F08AB31CF9D822D56889F4BDB2 /* DevMenuREATransitionAnimation.m in Sources */,
+				D1EEC7F7C61E0469014A3583A7CB2C62 /* DevMenuREATransitionManager.m in Sources */,
+				D1B6120EAA68D4186BE1F67934C3C86A /* DevMenuREATransitionValues.m in Sources */,
+				7C6C9C5D34F2996BDCB132D7C6EC53BD /* DevMenuREAValueNode.m in Sources */,
+				C450957868A4D0267F5A8022DCC7FB9B /* DevMenuRNFlingHandler.m in Sources */,
+				648A9E7E6DFCE7388F865831AF6FDEC8 /* DevMenuRNForceTouchHandler.m in Sources */,
+				C6B77691449695F95C87CA95A2B96D1D /* DevMenuRNGestureHandler.m in Sources */,
+				E3638D7A43E26A09445446888E09BEA9 /* DevMenuRNGestureHandlerButton.m in Sources */,
+				8A7861C40C97DED5404A0B49D4749664 /* DevMenuRNGestureHandlerEvents.m in Sources */,
+				67DBAA31CEE4DB1286AE54C6D197B95D /* DevMenuRNGestureHandlerManager.m in Sources */,
+				E84018C0BFF3797799A28253CDB1330F /* DevMenuRNGestureHandlerModule.m in Sources */,
+				90EDA1959DE1DCEDB6D41DE937D543A2 /* DevMenuRNGestureHandlerRegistry.m in Sources */,
+				872A124E8867730781801A2738AE6E73 /* DevMenuRNLongPressHandler.m in Sources */,
+				B987D7F93C4763EE8D049A505AF2D252 /* DevMenuRNNativeViewHandler.m in Sources */,
+				B1F9FF405C51915626B6A386020EB2DB /* DevMenuRNPanHandler.m in Sources */,
+				77A9A762E408229C61A8CBAD380B4A51 /* DevMenuRNPinchHandler.m in Sources */,
+				C26F62D8627E2270C4F016178C386801 /* DevMenuRNRootViewGestureRecognizer.m in Sources */,
+				03F67A91C5F2C453A5AAE5C320627EB7 /* DevMenuRNRotationHandler.m in Sources */,
+				6534E88B46F690F9655119C15204CDF4 /* DevMenuRNTapHandler.m in Sources */,
+				9F0F644FC047298E2D4F710D3538B974 /* DevMenuRootView.m in Sources */,
+				0E97890D0D7FCFF937CB85B23BAD5C79 /* DevMenuSession.swift in Sources */,
+				5CC4A586A80C5934AA5354B5426C953C /* DevMenuSettings.swift in Sources */,
+				F6A1FA251E2F50C127F6722964394B46 /* DevMenuTouchInterceptor.swift in Sources */,
+				8123BC398EB36A0D341AC3AB442A700B /* DevMenuUtils.swift in Sources */,
+				FB8CA4F118656E8065CE6C5FD8AC9908 /* DevMenuVendoredModulesUtils.m in Sources */,
+				9701AF4746AD060AACDE5D2DF17881DD /* DevMenuViewController.swift in Sources */,
+				6946D2F34A1F217950AE6124491BB6BF /* DevMenuWindow.swift in Sources */,
+				E9FEB8BE84D0AD0A43C79D5F549C5791 /* EXDevMenu-dummy.m in Sources */,
+				79DF074C2C5CCEBF4500F1A87CC92981 /* MockedSafeAreaViewProvider.swift in Sources */,
+				401CB5D2EE13BA65E42EB291934EDA2C /* RCTConvert+DevMenuREATransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7A5E0CA44356CF59248C636AEA4C0D76 /* PBXTargetDependency */ = {
+		4E580BF64D0A14FEF74FB8374852BF86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = EXDevMenuInterface;
-			targetProxy = DD0AADDA28A0CC856E085ADFA3C01DDB /* PBXContainerItemProxy */;
+			name = "expo-dev-menu-interface";
+			targetProxy = CEA6B9A995E4734BAE359AD0BBC0736E /* PBXContainerItemProxy */;
 		};
-		BB29DE71379FE16B9AC164722033305E /* PBXTargetDependency */ = {
+		7A2637EA5233CC081BB93D751F161AF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "EXDevMenu-EXDevMenu";
 			target = 3BFA089DA2CCEF1C173573D5A84C2A10 /* EXDevMenu-EXDevMenu */;
-			targetProxy = 3AC3C02477F209DF3439DEA9FAEE9275 /* PBXContainerItemProxy */;
+			targetProxy = B58DEBCA569DCE4724A8C7ACF0D7E300 /* PBXContainerItemProxy */;
 		};
-		C525BACD04EFCCD325198E9B79CA5BDE /* PBXTargetDependency */ = {
+		96B251D01C51065752DCABE9CFCDAEBF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = React;
-			targetProxy = 455AFFE5A018D54F5E8A6E53509F6078 /* PBXContainerItemProxy */;
+			targetProxy = 95C06D9ED358581A04E6B8439B92C704 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3208AEA72E1BAC8B0187079556457532 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4C4D5F81910716B8A86D50966DD9C7C /* EXDevMenu.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EXDevMenu";
-				IBSC_MODULE = EXDevMenu;
-				INFOPLIST_FILE = "Target Support Files/EXDevMenu/ResourceBundle-EXDevMenu-EXDevMenu-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = EXDevMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		3F2DA0E57FAA2864E8CA9B42FF4557DE /* Debug */ = {
+		0946B138523B97B1DDFE231BE8493085 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0F905D7EB25F961A6F43794BE93315A /* EXDevMenu.debug.xcconfig */;
 			buildSettings = {
@@ -979,6 +962,50 @@
 			};
 			name = Release;
 		};
+		71B9A013875138D598BED2C4589740C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C4D5F81910716B8A86D50966DD9C7C /* EXDevMenu.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EXDevMenu/EXDevMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/EXDevMenu/EXDevMenu.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EXDevMenu;
+				PRODUCT_NAME = EXDevMenu;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BDD1C05FDC73FFB85AC76A751E3C441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C4D5F81910716B8A86D50966DD9C7C /* EXDevMenu.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EXDevMenu";
+				IBSC_MODULE = EXDevMenu;
+				INFOPLIST_FILE = "Target Support Files/EXDevMenu/ResourceBundle-EXDevMenu-EXDevMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = EXDevMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		99A1FEF12C862F97CE002B397E89831C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1043,7 +1070,7 @@
 			};
 			name = Debug;
 		};
-		CAC00E70AEEB00658EFB73589A7C0E13 /* Debug */ = {
+		D6096B207E7400456DE460DC8F3E7B2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0F905D7EB25F961A6F43794BE93315A /* EXDevMenu.debug.xcconfig */;
 			buildSettings = {
@@ -1069,41 +1096,14 @@
 			};
 			name = Debug;
 		};
-		CFF5B83C651E63479D8A8E6D1BCF30B5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4C4D5F81910716B8A86D50966DD9C7C /* EXDevMenu.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/EXDevMenu/EXDevMenu-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MODULEMAP_FILE = Headers/Public/EXDevMenu/EXDevMenu.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = EXDevMenu;
-				PRODUCT_NAME = EXDevMenu;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0080E76338B8F89599DAA468B6F9D216 /* Build configuration list for PBXNativeTarget "EXDevMenu-EXDevMenu" */ = {
+		0C3354AE99985B88BB8EB10229028C19 /* Build configuration list for PBXNativeTarget "EXDevMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F2DA0E57FAA2864E8CA9B42FF4557DE /* Debug */,
-				3208AEA72E1BAC8B0187079556457532 /* Release */,
+				D6096B207E7400456DE460DC8F3E7B2C /* Debug */,
+				71B9A013875138D598BED2C4589740C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1117,11 +1117,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8BF6BD4907744D00774E14ED705015A /* Build configuration list for PBXNativeTarget "EXDevMenu" */ = {
+		D54C9729B475D39E5047F30BBAD02538 /* Build configuration list for PBXNativeTarget "EXDevMenu-EXDevMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAC00E70AEEB00658EFB73589A7C0E13 /* Debug */,
-				CFF5B83C651E63479D8A8E6D1BCF30B5 /* Release */,
+				0946B138523B97B1DDFE231BE8493085 /* Debug */,
+				8BDD1C05FDC73FFB85AC76A751E3C441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

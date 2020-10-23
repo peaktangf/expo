@@ -1,6 +1,6 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
-import EXDevMenuInterface
+import expo_dev_menu_interface
 
 class DevMenuBridgeProxyDelegate : DevMenuDelegateProtocol {
   private let bridge: RCTBridge

@@ -1,0 +1,6 @@
+module expo_dev_menu_interface {
+  umbrella header "expo-dev-menu-interface-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import EXDevMenuInterface
+import expo_dev_menu_interface
 #if canImport(EXDevMenu)
 import EXDevMenu
 #endif

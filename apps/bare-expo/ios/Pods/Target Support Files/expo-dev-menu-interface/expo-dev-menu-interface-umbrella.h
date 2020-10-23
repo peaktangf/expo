@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double EXDevMenuInterfaceVersionNumber;
-FOUNDATION_EXPORT const unsigned char EXDevMenuInterfaceVersionString[];
+FOUNDATION_EXPORT double expo_dev_menu_interfaceVersionNumber;
+FOUNDATION_EXPORT const unsigned char expo_dev_menu_interfaceVersionString[];
 
